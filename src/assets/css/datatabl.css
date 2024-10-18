@@ -1,0 +1,31 @@
+/* Custom DataTable Pagination Styles */
+table.dataTable .dataTable-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Space around the pagination */
+  }
+  
+  table.dataTable .dataTable-pagination .dataTable-page {
+    margin: 0 0.5rem; /* Space between pagination numbers */
+  }
+  
+  table.dataTable .dataTable-pagination .dataTable-page a {
+    display: inline-block;
+    padding: 0.5rem 1rem; /* Padding for pagination buttons */
+    border: 1px solid #4a4a4a; /* Border color */
+    border-radius: 0.25rem; /* Rounded corners */
+    color: #ffffff; /* Text color */
+    background-color: #6b46c1; /* Background color */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  table.dataTable .dataTable-pagination .dataTable-page a:hover {
+    background-color: #553c9a; /* Darker background on hover */
+  }
+  
+  table.dataTable .dataTable-pagination .dataTable-page.active a {
+    background-color: #4c51bf; /* Active page background */
+    border-color: #3c366b; /* Active page border color */
+  }
+  
